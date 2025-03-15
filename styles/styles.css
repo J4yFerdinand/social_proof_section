@@ -65,6 +65,13 @@ header p {
   text-align: center;
 }
 /******* CARDS REVIEWS *******/
+.cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
 .cards {
   background-color: #502050;
   border-radius: 10px;
