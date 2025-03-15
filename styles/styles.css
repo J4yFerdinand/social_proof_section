@@ -113,3 +113,24 @@ header p {
 .attribution a {
   color: #3E52A3;
 }
+/******** MEDIA QUERIES (>375px) ********/
+@media only screen and (min-width: 376px) {
+  .stars_container {
+    padding: 0 25px;
+  }
+  .star_1 {
+    align-self: flex-start;
+  }
+  .star_3 {
+    align-self: flex-end;
+  }
+  .cards_container {
+    padding: 0 14px;
+  }
+  .card_1 {
+    align-self: flex-start;
+  }
+  .card_3 {
+    align-self: flex-end;
+  }
+}
